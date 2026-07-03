@@ -53,3 +53,25 @@ Backend:
 cd backend
 npm install
 npm run dev
+They asked for:
+
+Swagger or
+Postman Collection
+
+The easiest option is a Postman Collection.
+
+Export your Postman/Thunder Client requests (if supported) or recreate them in Postman and export the collection.
+
+Include endpoints like:
+
+Method	Endpoint
+POST	/api/auth/register
+POST	/api/auth/login
+POST	/api/leaves
+GET	/api/leaves
+GET	/api/leaves/:id
+PUT	/api/leaves/:id
+DELETE	/api/leaves/:id
+GET	/api/manager/pending-leaves
+PUT	/api/manager/approve/:id
+PUT	/api/manager/reject/:id
