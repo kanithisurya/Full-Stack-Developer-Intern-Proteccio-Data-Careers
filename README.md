@@ -1,102 +1,16 @@
-# Full-Stack-Developer-Intern-Proteccio-Data-Careers
-A full-stack Leave Management System built with React.js, Node.js, Express.js, and MySQL featuring JWT authentication, role-based access control, and employee/manager leave management.
+# React + Vite
 
-# Leave Management System
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-A full-stack Leave Management System developed using React.js, Node.js, Express.js, and MySQL. The application enables employees to apply for leave, view leave history, and manage leave requests, while managers can review, approve, or reject leave applications through a secure role-based dashboard.
+Currently, two official plugins are available:
 
-The project implements JWT-based authentication, password encryption using bcrypt, RESTful APIs, and a MySQL database to provide a secure and scalable leave management solution.
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-Project Description
+## React Compiler
 
-Explain in a few sentences what the application does.
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-Example:
+## Expanding the ESLint configuration
 
-The Leave Management System is a full-stack web application that allows employees to apply for leave and managers to approve or reject leave requests. The application uses React.js for the frontend, Node.js and Express.js for the backend, MySQL as the database, JWT authentication, and role-based authorization.
-
-Technologies Used
-React.js
-Node.js
-Express.js
-MySQL
-JWT
-bcrypt
-Bootstrap
-Axios
-Features
-
-Mention completed features, for example:
-
-Employee Registration
-Employee Login
-Manager Login
-JWT Authentication
-Role-Based Authentication
-Apply Leave
-View Leave History
-Update Leave
-Cancel Leave
-Manager Approval
-Manager Rejection
-Dashboard APIs (if completed)
-Installation
-
-Frontend:
-
-cd leave-management-system
-npm install
-npm run dev
-
-Backend:
-
-cd backend
-npm install
-npm run dev
-They asked for:
-
-Swagger or
-Postman Collection
-
-The easiest option is a Postman Collection.
-
-Export your Postman/Thunder Client requests (if supported) or recreate them in Postman and export the collection.
-
-Include endpoints like:
-
-Method	Endpoint
-POST	/api/auth/register
-POST	/api/auth/login
-POST	/api/leaves
-GET	/api/leaves
-GET	/api/leaves/:id
-PUT	/api/leaves/:id
-DELETE	/api/leaves/:id
-GET	/api/manager/pending-leaves
-PUT	/api/manager/approve/:id
-PUT	/api/manager/reject/:id
-
-7. Git Commit History
-
-This means they want to see that you used Git while developing.
-
-Make several meaningful commits instead of one large commit.
-
-Examples:
-
-Initial project setup
-
-Implemented authentication
-
-Added JWT middleware
-
-Created employee leave APIs
-
-Implemented manager approval APIs
-
-Added React login page
-
-Connected frontend with backend
-
-Push these commits to GitHub.
-8. uploded video of project
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
