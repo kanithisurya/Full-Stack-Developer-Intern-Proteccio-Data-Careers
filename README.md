@@ -75,3 +75,27 @@ DELETE	/api/leaves/:id
 GET	/api/manager/pending-leaves
 PUT	/api/manager/approve/:id
 PUT	/api/manager/reject/:id
+
+7. Git Commit History
+
+This means they want to see that you used Git while developing.
+
+Make several meaningful commits instead of one large commit.
+
+Examples:
+
+Initial project setup
+
+Implemented authentication
+
+Added JWT middleware
+
+Created employee leave APIs
+
+Implemented manager approval APIs
+
+Added React login page
+
+Connected frontend with backend
+
+Push these commits to GitHub.
